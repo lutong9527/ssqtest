@@ -1,0 +1,219 @@
+.
+├── 0223.txt
+├── __pycache__
+│   ├── auth.cpython-311.pyc
+│   ├── database.cpython-311.pyc
+│   └── main.cpython-311.pyc
+├── api
+│   ├── auth_router.py
+│   ├── compute_router.py
+│   ├── miniapp_router.py
+│   ├── router.py
+│   └── wechat_router.py
+├── auth.py
+├── compute
+│   ├── __pycache__
+│   │   ├── model_manager.cpython-311.pyc
+│   │   └── random_model.cpython-311.pyc
+│   ├── bayesian_model.py
+│   ├── fusion_engine.py
+│   ├── genetic_model.py
+│   ├── hot_cold_model.py
+│   ├── model_manager.py
+│   ├── model_registry.py
+│   ├── monte_carlo_model.py
+│   ├── neural_network_model.py
+│   ├── odd_even_balance_model.py
+│   ├── random_model.py
+│   └── rl_model.py
+├── config
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   └── settings.cpython-311.pyc
+│   └── settings.py
+├── config.py
+├── config_backup
+│   └── pay.py
+├── core
+│   ├── __pycache__
+│   │   └── celery_app.cpython-311.pyc
+│   ├── celery_app.py
+│   └── redis_client.py
+├── database.py
+├── db
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── base.cpython-311.pyc
+│   │   └── session.cpython-311.pyc
+│   ├── base.py
+│   └── session.py
+├── dependencies
+│   └── api_key_auth.py
+├── main.py
+├── main.py.bak
+├── models
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── announcement.cpython-311.pyc
+│   │   ├── api_key.cpython-311.pyc
+│   │   ├── api_usage_log.cpython-311.pyc
+│   │   ├── backtest_records.cpython-311.pyc
+│   │   ├── banner.cpython-311.pyc
+│   │   ├── base.cpython-311.pyc
+│   │   ├── call_log.cpython-311.pyc
+│   │   ├── commission.cpython-311.pyc
+│   │   ├── commission_config.cpython-311.pyc
+│   │   ├── commission_log.cpython-311.pyc
+│   │   ├── fusion_engine.cpython-311.pyc
+│   │   ├── genetic_model.cpython-311.pyc
+│   │   ├── kaijiang.cpython-311.pyc
+│   │   ├── loader.cpython-311.pyc
+│   │   ├── lottery_history.cpython-311.pyc
+│   │   ├── mall_order.cpython-311.pyc
+│   │   ├── mall_product.cpython-311.pyc
+│   │   ├── markov_model.cpython-311.pyc
+│   │   ├── max_entropy_model.cpython-311.pyc
+│   │   ├── model_config.cpython-311.pyc
+│   │   ├── monte_carlo_gpu_model.cpython-311.pyc
+│   │   ├── order.cpython-311.pyc
+│   │   ├── params_snapshot.cpython-311.pyc
+│   │   ├── points_logs.cpython-311.pyc
+│   │   ├── proxy.cpython-311.pyc
+│   │   ├── recommend_result.cpython-311.pyc
+│   │   ├── registry.cpython-311.pyc
+│   │   ├── role_limit.cpython-311.pyc
+│   │   ├── user.cpython-311.pyc
+│   │   ├── user_points.cpython-311.pyc
+│   │   └── withdraw.cpython-311.pyc
+│   ├── announcement.py
+│   ├── api_key.py
+│   ├── api_usage_log.py
+│   ├── backtest_records.py
+│   ├── banner.py
+│   ├── base.py
+│   ├── base.py.bak
+│   ├── call_log.py
+│   ├── commission.py
+│   ├── commission_config.py
+│   ├── commission_log.py
+│   ├── fusion_engine.py
+│   ├── genetic_model.py
+│   ├── kaijiang.py
+│   ├── loader.py
+│   ├── lottery_history.py
+│   ├── mall_order.py
+│   ├── mall_product.py
+│   ├── markov_model.py
+│   ├── max_entropy_model.py
+│   ├── model_config.py
+│   ├── monte_carlo_gpu_model.py
+│   ├── order.py
+│   ├── params_snapshot.py
+│   ├── points_logs.py
+│   ├── proxy.py
+│   ├── recommend_result.py
+│   ├── registry.py
+│   ├── role_limit.py
+│   ├── user.py
+│   ├── user_points.py
+│   └── withdraw.py
+├── requirements.txt
+├── routers
+│   ├── __init__.py
+│   ├── __init__.py.bak
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── admin_commission_router.cpython-311.pyc
+│   │   ├── admin_content_router.cpython-311.pyc
+│   │   ├── admin_router.cpython-311.pyc
+│   │   ├── auth_router.cpython-311.pyc
+│   │   ├── backtest_router.cpython-311.pyc
+│   │   ├── commission_router.cpython-311.pyc
+│   │   ├── content_router.cpython-311.pyc
+│   │   ├── mall_router.cpython-311.pyc
+│   │   ├── order_router.cpython-311.pyc
+│   │   ├── points_router.cpython-311.pyc
+│   │   ├── proxy_router.cpython-311.pyc
+│   │   ├── recommend_router.cpython-311.pyc
+│   │   ├── task_router.cpython-311.pyc
+│   │   ├── user_router.cpython-311.pyc
+│   │   └── withdraw_router.cpython-311.pyc
+│   ├── admin_commission_router.py
+│   ├── admin_content_router.py
+│   ├── admin_router.py
+│   ├── auth_router.py
+│   ├── backtest_router.py
+│   ├── commission.py
+│   ├── commission_router.py
+│   ├── content_router.py
+│   ├── mall_router.py
+│   ├── order_router.py
+│   ├── points_router.py
+│   ├── proxy_router.py
+│   ├── recommend_router.py
+│   ├── recommend_router.py.bak
+│   ├── recoomend_router.py
+│   ├── task_router.py
+│   ├── user_router.py
+│   └── withdraw_router.py
+├── schemas
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── auth.cpython-311.pyc
+│   │   ├── backtest.cpython-311.pyc
+│   │   ├── order.cpython-311.pyc
+│   │   ├── recommend.cpython-311.pyc
+│   │   ├── user.cpython-311.pyc
+│   │   └── withdraw.cpython-311.pyc
+│   ├── auth.py
+│   ├── backtest.py
+│   ├── order.py
+│   ├── recommend.py
+│   ├── user.py
+│   └── withdraw.py
+├── security_check.sh
+├── services
+│   ├── __init__..py
+│   ├── __pycache__
+│   │   ├── backtest_service.cpython-311.pyc
+│   │   ├── entropy_model.cpython-311.pyc
+│   │   ├── history_service.cpython-311.pyc
+│   │   ├── recommend_service.cpython-311.pyc
+│   │   └── role_permission_service.cpython-311.pyc
+│   ├── account_service.py
+│   ├── agent_level_service.py
+│   ├── announcement_engine.py
+│   ├── backtest_service.py
+│   ├── commission_service.py
+│   ├── entropy_model.py
+│   ├── history_service.py
+│   ├── hit_statistics_service.py
+│   ├── model_sync_service.py
+│   ├── prediction_service.py
+│   ├── recommend_param.py
+│   ├── recommend_service.py
+│   ├── role_permission_service.py
+│   ├── segment_service.py
+│   └── wallet_service.py
+├── static
+│   ├── swagger-ui-bundle.js
+│   └── swagger-ui.css
+├── tasks
+│   ├── __pycache__
+│   │   ├── backtest_tasks.cpython-311.pyc
+│   │   ├── compute_tasks.cpython-311.pyc
+│   │   ├── lottery_tasks.cpython-311.pyc
+│   │   └── order_timeout.cpython-311.pyc
+│   ├── backtest_tasks.py
+│   ├── compute_tasks.py
+│   ├── lottery_tasks.py
+│   └── order_timeout.py
+├── utils
+│   └── ap_key_utils.py
+└── ws.py
+
+25 directories, 192 files

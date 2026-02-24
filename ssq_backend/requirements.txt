@@ -1,0 +1,19 @@
+# requirements.txt （推荐版）
+fastapi>=0.115.0
+uvicorn>=0.31.0
+gunicorn>=22.0.0
+sqlalchemy>=2.0.35
+pymysql>=1.1.1
+python-dotenv>=1.0.1
+pyjwt>=2.9.0
+passlib[bcrypt]>=1.7.4
+python-jose[cryptography]>=3.3.0
+pydantic[email]>=2.5.0
+APScheduler>=3.10.4
+alipay-sdk-python>=3.6.640
+wechatpayv3>=1.2.53
+qrcode[pil]>=7.4.2
+bcrypt>=4.2.0
+celery==5.3.6
+redis==5.0.1
+
